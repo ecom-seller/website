@@ -17,7 +17,7 @@
     }
 
     .image{
-        width:400px;
+        width:300px;
         height:220px;
     }
 
@@ -419,5 +419,10 @@ footer {
 .header-container {
     /* background: rgb(0,0,0);
     background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(7,91,72,1) 50%, rgba(255,255,255,0.9864320728291317) 100%);
+<<<<<<< HEAD
     */height: 70vh;
 }
+=======
+    height: 70vh;
+}
+>>>>>>> 8dcf767134a5647747e038f0807c51b9601b8e92
