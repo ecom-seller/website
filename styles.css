@@ -173,8 +173,7 @@ body {
   .dot-container {
     text-align: center;
     padding: 20px;
-    background: black;
-    height: 185px!important;
+   
   }
   /* The dots/bullets/indicators */
   .dot {
