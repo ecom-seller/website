@@ -169,12 +169,13 @@ body {
   }
   
   /* The dot/bullet/indicator container */
+  
   .dot-container {
     text-align: center;
     padding: 20px;
-    background: #fff;
+    background: black;
+    height: 185px!important;
   }
-  
   /* The dots/bullets/indicators */
   .dot {
     cursor: pointer;
