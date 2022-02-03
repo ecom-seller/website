@@ -976,17 +976,7 @@
         dots[slideIndex-1].className += " active";
         }
     </script>
-    <script>
-            const scriptURL = 'https://script.google.com/macros/s/AKfycby4ax_cPGG75sQH-5UxA-TpZxo-6oZCQDzElEVgwZ1Ib85kORnOTpkS0RkbhgNY0W3e/exec'
-            const form = document.forms['google-sheet']
-          
-            form.addEventListener('submit', e => {
-              e.preventDefault()
-              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
-                .catch(error => console.error('Error!', error.message))
-            })
-    </script>
+   
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
